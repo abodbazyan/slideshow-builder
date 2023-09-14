@@ -1,0 +1,30 @@
+{
+  "homepage": "https://abodbazyan.github.io/slideshow-builder",
+  "name": "slideshow-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.9",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "^4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
